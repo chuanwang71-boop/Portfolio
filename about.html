@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About | Chuan Wang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="./img/icon-2.png">
+  <meta name="description" content="About page of Chuan Wang, LSU visual design student with a background in landscape design.">
+</head>
+
+<button class="music-toggle" id="music-toggle" aria-label="Toggle music panel">
+  ♪
+</button>
+
+<aside class="music-panel" id="music-panel">
+  <div class="music-panel-header">
+    <span class="music-title">Mystery of Love </span>
+    <button class="music-close" id="music-close" aria-label="Close music panel">✕</button>
+  </div>
+
+  <p class="music-desc">
+    Soft background music.
+  </p>
+
+  <div class="music-controls">
+    <button class="music-play" id="music-play">▶ Play</button>
+    <span class="music-status" id="music-status">Paused</span>
+  </div>
+
+  <audio id="bg-music" src="./audio/Music.mp3" loop></audio>
+</aside>
+
+<script src="js/main.js"></script>
+
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">C</span>
+      </a>
+
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-section">
+      <div class="page-container about-layout">
+
+        <div class="about-main">
+
+          <div class="about-photo">
+            <img src="./img/Selfie.png" alt="Chuan Wang portrait">
+          </div>
+
+          <p class="eyebrow">About</p>
+          <h1 class="about-title">Hi, I’m Chuan Wang.</h1>
+
+          <p class="about-intro">
+            I’m a visual design student at Louisiana State University, with an earlier background in landscape design.
+            That combination shaped the way I see composition, atmosphere, and the emotional weight of space—whether physical or digital.
+          </p>
+
+          <p class="about-intro">
+            My interest sits between <strong>web & interaction design</strong>,
+            <strong>3D environmental scenes</strong>, and <strong>mapping-based storytelling</strong>.
+            I enjoy building quiet, cinematic moments—interfaces and spaces that feel like small worlds, 
+            inspired by gentle light, nature, and Ghibli-like atmospheres.
+          </p>
+
+          <h2 class="about-subtitle">What I’m interested in</h2>
+          <ul class="about-list">
+            <li>Designing calm, cinematic web experiences</li>
+            <li>Bringing landscape thinking into digital visual design</li>
+            <li>Mapping & GIS as tools for storytelling</li>
+            <li>Exploring 3D objects, interiors, and environmental atmospheres</li>
+          </ul>
+
+          <h2 class="about-subtitle">Skills</h2>
+          <ul class="tag-list">
+            <li>HTML · CSS · JavaScript</li>
+            <li>Web Animation</li>
+            <li>ArcGIS & Mapping</li>
+            <li>Rhino 3D Modeling</li>
+            <li>Adobe Creative Suite</li>
+          </ul>
+        </div>
+
+        <aside class="about-side">
+
+          <div class="about-card">
+            <h3 class="about-card-title">Profile</h3>
+            <dl class="about-meta">
+              <dt>Name</dt><dd>Chuan Wang</dd>
+              <dt>Based at</dt><dd>Louisiana State University</dd>
+              <dt>Program</dt><dd>Visual Design</dd>
+              <dt>Background</dt><dd>Landscape / Environmental Design</dd>
+            </dl>
+          </div>
+
+          <div class="about-card">
+            <h3 class="about-card-title">Currently</h3>
+            <p class="about-card-text">
+              Developing a portfolio that connects digital media, interaction design,
+              and spatial thinking—shaped by both visual design and landscape experience.
+            </p>
+          </div>
+
+        </aside>
+
+      </div>
+    </section>
+  </main>
+
+
+</body>
+</html>

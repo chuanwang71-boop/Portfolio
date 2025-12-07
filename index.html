@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chuan Wang | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="./img/icon-2.png">
+  <meta name="description" content="This is a protfolio website">
+</head>
+
+<button class="music-toggle" id="music-toggle" aria-label="Toggle music panel">
+  ♪
+</button>
+
+<aside class="music-panel" id="music-panel">
+  <div class="music-panel-header">
+    <span class="music-title">Mystery of Love </span>
+    <button class="music-close" id="music-close" aria-label="Close music panel">✕</button>
+  </div>
+
+  <p class="music-desc">
+    Soft background music.
+  </p>
+
+  <div class="music-controls">
+    <button class="music-play" id="music-play">▶ Play</button>
+    <span class="music-status" id="music-status">Paused</span>
+  </div>
+
+  <audio id="bg-music" src="./audio/Music.mp3" loop></audio>
+</aside>
+
+<script src="js/main.js"></script>
+
+<body>
+
+    <header class="site-header">
+  <div class="nav-container">
+   
+    <a href="index.html" class="logo">
+      <span class="logo-mark">C</span>
+    </a>
+
+    <nav class="site-nav">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero-split">
+  <h1 class="hero-name">Chuan Wang</h1>
+
+  <div class="hero-box">
+    <div class="hero-panels">
+    
+      <a href="projects.html#proj1" class="hero-panel">
+        <img src="./img/Marina Plaza.png" alt="Project 1">
+        <span class="hero-label">Marina Plaza</span>
+      </a>
+
+      <a href="projects.html#proj2" class="hero-panel">
+        <img src="./img/train-2.png" alt="Project 2">
+        <span class="hero-label">3D Train</span>
+      </a>
+
+      <a href="projects.html#proj3" class="hero-panel">
+        <img src="./img/Space-1.png" alt="Project 3">
+        <span class="hero-label">3D Space Creating</span>
+      </a>
+
+      <a href="projects.html#proj4" class="hero-panel">
+        <img src="./img/Web.png" alt="Project 4">
+        <span class="hero-label">Web Design</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+<script src="js/main.js"></script>
+
+</body>
+</html>

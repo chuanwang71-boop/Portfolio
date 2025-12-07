@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects | Chuan Wang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="./img/icon-2.png">
+  <meta name="description" content="Projects in web design, 3D modeling, and digital environments by Chuan Wang.">
+</head>
+
+<button class="music-toggle" id="music-toggle" aria-label="Toggle music panel">
+  ♪
+</button>
+
+<aside class="music-panel" id="music-panel">
+  <div class="music-panel-header">
+    <span class="music-title">Mystery of Love </span>
+    <button class="music-close" id="music-close" aria-label="Close music panel">✕</button>
+  </div>
+
+  <p class="music-desc">
+    Soft background music.
+  </p>
+
+  <div class="music-controls">
+    <button class="music-play" id="music-play">▶ Play</button>
+    <span class="music-status" id="music-status">Paused</span>
+  </div>
+
+  <audio id="bg-music" src="./audio/Music.mp3" loop></audio>
+</aside>
+
+<script src="js/main.js"></script>
+
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">C</span>
+      </a>
+
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="projects-page">
+    <section class="projects-hero">
+      <div class="projects-inner">
+        <h1>Projects</h1>
+        <p>
+          A selection of works spanning web animation, 3D modeling, and spatial storytelling.
+          Clicked from the home page hero, each panel brings you to its detailed section here.
+        </p>
+      </div>
+    </section>
+
+    <section class="projects-list">
+      <div class="projects-container">
+        <article id="proj1" class="project-block">
+          <div class="project-image">
+            <img src="./img/Marina Plaza.png" alt="Marina Plaza project preview">
+          </div>
+          <div class="project-text">
+            <h2>Marina Plaza</h2>
+            <p class="project-tags">3D Modeling · Environmental Design</p>
+            <p>
+              A harbor-side plaza designed to feel calm, open, and story-like, with layered
+              terraces, soft lighting, and a strong focus on atmosphere. The project explores
+              how architecture can frame movement and daily rituals in a coastal setting.
+            </p>
+          </div>
+        </article>
+
+        <article id="proj2" class="project-block">
+          <div class="project-image">
+            <img src="./img/train-2.png" alt="3D train render">
+          </div>
+          <div class="project-text">
+            <h2>3D Train Journey</h2>
+            <p class="project-tags">Rhino · 3D Modeling</p>
+            <p>
+              A stylized train model inspired by animated films. The project focuses on
+              proportions, detailing, and materials to capture a sense of gentle travel
+              and nostalgia, like a scene paused between stations.
+            </p>
+          </div>
+        </article>
+
+        <article id="proj3" class="project-block">
+          <div class="project-image">
+            <img src="./img/Space-1.png" alt="3D interior space view">
+          </div>
+          <div class="project-text">
+            <h2>Interior Space Study</h2>
+            <p class="project-tags">3D Space · Light & Atmosphere</p>
+            <p>
+              A series of interior vignettes exploring how light, color, and simple forms
+              can create a quiet, protective mood. The work experiments with camera angles
+              and composition to direct the viewer’s attention through the space.
+            </p>
+          </div>
+        </article>
+
+        <article id="proj4" class="project-block">
+          <div class="project-image">
+            <img src="./img/Web.png" alt="Web design hero screenshot">
+          </div>
+          <div class="project-text">
+            <h2>Web Scene & Animation</h2>
+            <p class="project-tags">HTML · CSS · JavaScript</p>
+            <p>
+              A web-based scene combining illustration, animation, and interaction.
+              The layout and motion are inspired by nature-city contrasts and Ghibli-like
+              atmospheres, inviting users to scroll, explore, and discover details.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>

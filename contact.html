@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Chuan Wang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="./img/icon-2.png">
+  <meta name="description" content="Contact page for Chuan Wang's portfolio website.">
+</head>
+
+<button class="music-toggle" id="music-toggle" aria-label="Toggle music panel">
+  ♪
+</button>
+
+<aside class="music-panel" id="music-panel">
+  <div class="music-panel-header">
+    <span class="music-title">Mystery of Love </span>
+    <button class="music-close" id="music-close" aria-label="Close music panel">✕</button>
+  </div>
+
+  <p class="music-desc">
+    Soft background music.
+  </p>
+
+  <div class="music-controls">
+    <button class="music-play" id="music-play">▶ Play</button>
+    <span class="music-status" id="music-status">Paused</span>
+  </div>
+
+  <audio id="bg-music" src="./audio/Music.mp3" loop></audio>
+</aside>
+
+<script src="js/main.js"></script>
+
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">C</span>
+      </a>
+
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contact-main">
+    <section class="contact-section">
+      <div class="contact-inner">
+        <div class="contact-text">
+          <h1>Contact</h1>
+          <p>
+            Feel free to reach out if you’d like to talk about projects, collaboration,
+            or have any questions about my work.
+          </p>
+
+          <ul class="contact-list">
+            <li><strong>Phone:</strong> +1 225 615 0224</li>
+            <li><strong>Email:</strong> <a href="mailto:chuanwang71@gmail.com">chuanwang71@gmail.com</a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+
+          <button type="submit" class="contact-btn">Send Message</button>
+    
+        </form>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
